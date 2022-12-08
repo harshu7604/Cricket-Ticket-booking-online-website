@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project.css">
+    
+
+    <title>Lets Play</title>
+</head>
+<body>
+   <nav class="navbar">
+    <button onclick="toggleMenu()" class="burger"></button>
+    <button class="button">Home</button>
+    <div class="dropdowns">
+        <div class="dropdown">
+            <button class="button">Internationals<img src="chevron-down.png"/>
+            </button>
+            <div class="dropdown-menu">
+                <button>ODI</button>
+                <button>T20</button>
+                <button>Test</button>
+
+            </div>
+            
+        </div>
+        <div class="dropdown">
+            <button class="button">
+              Series
+              <img src="chevron-down.png" />
+            </button>
+            <div class="dropdown-menu">
+              <button>Ashes</button>
+              <button>Joy bangla</button>
+              <button>Nidahas</button>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="button">
+              Leauges
+              <img src="chevron-down.png" height="20px"/>
+            </button>
+            <div class="dropdown-menu">
+              <button>IPL</button>
+              <button>Big Bash</button>
+              <button>BPL</button>
+            </div>
+          </div>
+          <div class="dropdown">
+            <a href="form.html" target="_blank"><button class="button">
+              Buy Ticket
+              <img src="chevron-down.png" height="20px"/>
+            </button></a>
+            
+          </div>
+          <div class="dropdown">
+            <a href="signup1.html" target="_blank"><button class="button">
+              Sign up
+              <img src="chevron-down.png" height="20px"/>
+            </button>
+            </a>
+            
+          </div>
+          <div class="dropdown">
+            <a href="login.html" target="_blank"><button class="button">
+              log in
+              <img src="chevron-down.png" height="20px"/>
+            </button></a>
+            
+          </div>
+  </div>
+   </nav>
+          
+    </div>
+  
+  <div class="city">
+    <img src="Sydney-Cricket-Ground.jpg">
+    <img src="16-kolkata-eden-gardens-3-1.jpg">
+    <img src="lords.jpg">
+    <img src="adelaide-oval-nrl_1ndxruaaf8w0b1wrunztb2sp5y.png">
+    <img src="capetown.jpg">
+    <img src="Mirpur.jpg">
+
+  </div><br>
+  
+  <section class="search-sec">
+    <div class="container">
+        <form action="#" method="post" novalidate="novalidate">
+            <div class="row">
+                
+                    <div class="row">
+                      <div >
+                        <select class="form-control search-slt" id="exampleFormControlSelect1">
+                            <option>Select Format</option>
+                            <option>T20</option>
+                            <option>ODI</option>
+                            <option>Test</option>
+                            
+                        </select>
+                    </div>
+                        <div >
+                         
+                            <select class="form-control search-slt" id="exampleFormControlSelect1">
+                                <option>Select CITY</option>
+                                <option>Adelaide</option>
+                                <option>Cape town</option>
+                                <option>Mirpur</option>
+                                <option>Kolkata</option>
+                                <option>Harare</option>
+                                <option>Chennai</option>
+                            </select>
+                        
+                        </div>
+                        <div >
+                            <select class="form-control search-slt" id="exampleFormControlSelect1">
+                                <option>Select Class </option>
+                                <option>First Class</option>
+                                <option>Second Class</option>
+                                <option>Ground Seats</option>
+                                <option>VIP Seat</option>
+                                <option>Box Seat</option>
+                                <option>Standing</option>
+                            </select>
+                        </div>
+                        <div >
+                            <button type="button"  class="btn btn-danger wrn-btn" >Search</button>
+                        </div>
+                    </div>
+                </div>
+            
+        </form>
+    </div>
+</section>
+
+
+
+
+                                                                                                                                                                  
+   <script>
+    const toggleMenu = () =>
+     document.body.classlist.toggle("open");
+
+   </script>
+   
+
+
+</body>
+</html>
